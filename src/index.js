@@ -7,6 +7,8 @@ import thunk from 'redux-thunk'
 import reducer from './reducers'
 import App from './containers/App'
 import { getPokemons } from './actions'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
