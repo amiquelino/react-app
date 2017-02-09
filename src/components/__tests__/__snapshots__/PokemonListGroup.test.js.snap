@@ -1,19 +1,37 @@
 exports[`PokemonListGroup render correctly 1`] = `
 <div
   className="list-group">
-  <a
-    className="list-group-item"
-    href="http://pokeapi.co/api/v2/pokemon/1/">
+  <span
+    className="list-group-item">
      
     bulbasaur
      
-  </a>
-  <a
-    className="list-group-item"
-    href="http://pokeapi.co/api/v2/pokemon/2/">
+  </span>
+  <span
+    className="list-group-item">
      
     ivysaur
      
-  </a>
+  </span>
+  <ul
+    className="pager">
+    <button
+      className="btn btn-default"
+      disabled={true}
+      onClick={[Function]}
+      onSelect={null}
+      type="button">
+      Anterior
+    </button>
+     
+    <button
+      className="btn btn-default"
+      disabled={false}
+      onClick={[Function]}
+      onSelect={null}
+      type="button">
+      Próxima
+    </button>
+  </ul>
 </div>
 `;

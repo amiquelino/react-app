@@ -12,6 +12,14 @@ const pokemons = (state = initialState, action) => {
         previous: action.payload.previous,
         next: action.payload.next
       }
+    case 'ON_LOAD_PAGE':
+      return{
+        ...state,
+        dataset: action.payload.results,
+        //count: action.payload.count,
+        previous: action.payload.previous,
+        next: action.payload.next
+      }
     default:
       return state
   }
