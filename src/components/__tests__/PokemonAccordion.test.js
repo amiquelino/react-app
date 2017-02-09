@@ -13,12 +13,21 @@ describe('PokemonAccordion', ( ) => {
       "name" : "ivysaur"
     }
   ]
-
+const selected = {
+  "id": 1,
+   "name": "bulbasaur",
+   "base_experience": 64,
+   "height": 7,
+   "is_default": true,
+   "order": 1,
+   "weight": 69,
+}
   it('render correctly', ( ) => {
     const component = renderer.create(
       <PokemonAccordion
         dataset={pokemons}
         onSelect={jest.fn()}
+        selected={selected}
       />
     )
     expect( component ).toMatchSnapshot( )

@@ -29,7 +29,6 @@ export const onLoadPage = ( type ) => ( dispatch, getState ) => {
 }
 
 export const getPokemon = ( url ) => ( dispatch ) => {
-  debugger
   fetch(url)
   .then((response) => response.json())
   .then(responseJson => responseJson)

@@ -30,9 +30,65 @@ exports[`PokemonAccordion render correctly 1`] = `
       role="tabpanel">
       <div
         className="panel-body">
-         
-        bulbasaur
-         
+        <div
+          className="container">
+          <div
+            className="show-grid row">
+            <div
+              className="col-md-2 col-xs-3">
+              <b>
+                Nome: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                CP: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Altura: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Peso: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Ordem: 
+              </b>
+            </div>
+          </div>
+          <div
+            className="show-grid row">
+            <div
+              className="col-md-2 col-xs-3">
+              bulbasaur
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              64
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              7
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              69
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              1
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -64,9 +120,65 @@ exports[`PokemonAccordion render correctly 1`] = `
       role="tabpanel">
       <div
         className="panel-body">
-         
-        ivysaur
-         
+        <div
+          className="container">
+          <div
+            className="show-grid row">
+            <div
+              className="col-md-2 col-xs-3">
+              <b>
+                Nome: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                CP: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Altura: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Peso: 
+              </b>
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              <b>
+                Ordem: 
+              </b>
+            </div>
+          </div>
+          <div
+            className="show-grid row">
+            <div
+              className="col-md-2 col-xs-3">
+              bulbasaur
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              64
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              7
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              69
+            </div>
+            <div
+              className="col-md-1 col-xs-2">
+              1
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

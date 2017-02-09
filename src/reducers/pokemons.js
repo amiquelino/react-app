@@ -1,5 +1,6 @@
 const initialState = {
   dataset: [],
+  selected: {}
 }
 
 const pokemons = (state = initialState, action) => {
