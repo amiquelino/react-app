@@ -5,7 +5,7 @@ const PokemonAccordion = ( props ) => {
     <Accordion >
       {props.dataset.map((pokemon) => {
         return (
-          <Panel  header={pokemon.name} eventKey={pokemon.name} key={pokemon.name} > {pokemon.name} </Panel>
+          <Panel  header={pokemon.name} eventKey={pokemon.url} key={pokemon.name} onSelect={props.onSelect}> {pokemon.name} </Panel>
         )
       })}
     </Accordion>
@@ -15,6 +15,7 @@ const PokemonAccordion = ( props ) => {
 
 PokemonAccordion.propTypes = {
   dataset: React.PropTypes.array.isRequired,
+  onSelect: React.PropTypes.func.isRequired,
 }
 
 export default PokemonAccordion

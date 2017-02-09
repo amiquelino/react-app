@@ -18,6 +18,7 @@ describe('PokemonAccordion', ( ) => {
     const component = renderer.create(
       <PokemonAccordion
         dataset={pokemons}
+        onSelect={jest.fn()}
       />
     )
     expect( component ).toMatchSnapshot( )
