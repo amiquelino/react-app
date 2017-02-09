@@ -1,5 +1,5 @@
 const initialState = {
-  dataset: {},
+  dataset: [],
 }
 
 const pokemons = (state = initialState, action) => {
