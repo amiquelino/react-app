@@ -1,37 +1,74 @@
 exports[`PokemonListGroup render correctly 1`] = `
 <div
-  className="list-group">
-  <span
-    className="list-group-item">
-     
-    bulbasaur
-     
-  </span>
-  <span
-    className="list-group-item">
-     
-    ivysaur
-     
-  </span>
-  <ul
-    className="pager">
-    <button
-      className="btn btn-default"
-      disabled={true}
-      onClick={[Function]}
-      onSelect={null}
-      type="button">
-      Anterior
-    </button>
-     
-    <button
-      className="btn btn-default"
-      disabled={false}
-      onClick={[Function]}
-      onSelect={null}
-      type="button">
-      Próxima
-    </button>
-  </ul>
+  className="panel-group"
+  role="tablist">
+  <div
+    className="panel panel-default"
+    id={null}>
+    <div
+      className="panel-heading">
+      <h4
+        className="panel-title"
+        role="presentation">
+        <a
+          aria-controls={undefined}
+          aria-expanded={false}
+          aria-selected={false}
+          className="collapsed"
+          href={undefined}
+          onClick={[Function]}
+          role="tab">
+          bulbasaur
+        </a>
+      </h4>
+    </div>
+    <div
+      aria-expanded={null}
+      aria-hidden={true}
+      className="panel-collapse collapse"
+      id={undefined}
+      role="tabpanel">
+      <div
+        className="panel-body">
+         
+        bulbasaur
+         
+      </div>
+    </div>
+  </div>
+  <div
+    className="panel panel-default"
+    id={null}>
+    <div
+      className="panel-heading">
+      <h4
+        className="panel-title"
+        role="presentation">
+        <a
+          aria-controls={undefined}
+          aria-expanded={false}
+          aria-selected={false}
+          className="collapsed"
+          href={undefined}
+          onClick={[Function]}
+          role="tab">
+          ivysaur
+        </a>
+      </h4>
+    </div>
+    <div
+      aria-expanded={null}
+      aria-hidden={true}
+      className="panel-collapse collapse"
+      id={undefined}
+      role="tabpanel">
+      <div
+        className="panel-body">
+         
+        ivysaur
+         
+      </div>
+    </div>
+  </div>
 </div>
 `;

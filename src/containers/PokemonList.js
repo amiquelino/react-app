@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { onLoadPage } from '../actions/pokemon'
 import PokemonListGroup from '../components/PokemonListGroup'
+import PokemonPager from '../components/PokemonPager'
 
 export const PokemonList = ({
   pokemons,
@@ -10,12 +11,14 @@ export const PokemonList = ({
   onPrevious,
   onNext
 }) => (
-  <PokemonListGroup
-    dataset={pokemons}
-    previous={previous}
-    next={next}
-    previousOnClick={onPrevious}
-    nextOnClick={onNext} />
+  <div>
+    <PokemonListGroup dataset={pokemons} />
+    <PokemonPager
+      previous={previous}
+      next={next}
+      previousOnClick={onPrevious}
+      nextOnClick={onNext} />
+    </div>
 )
 export default connect(
   ( state ) => ({
