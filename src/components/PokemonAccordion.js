@@ -1,6 +1,6 @@
 import React from 'react'
 import {Accordion, Panel} from 'react-bootstrap'
-const PokemonListGroup = ( props ) => {
+const PokemonAccordion = ( props ) => {
   return (
     <Accordion >
       {props.dataset.map((pokemon) => {
@@ -13,8 +13,8 @@ const PokemonListGroup = ( props ) => {
   )
 }
 
-PokemonListGroup.propTypes = {
+PokemonAccordion.propTypes = {
   dataset: React.PropTypes.array.isRequired,
 }
 
-export default PokemonListGroup
+export default PokemonAccordion

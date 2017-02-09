@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { onLoadPage } from '../actions/pokemon'
-import PokemonListGroup from '../components/PokemonListGroup'
+import PokemonAccordion from '../components/PokemonAccordion'
 import PokemonPager from '../components/PokemonPager'
 
 export const PokemonList = ({
@@ -12,7 +12,7 @@ export const PokemonList = ({
   onNext
 }) => (
   <div>
-    <PokemonListGroup dataset={pokemons} />
+    <PokemonAccordion dataset={pokemons} />
     <PokemonPager
       previous={previous}
       next={next}

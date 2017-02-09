@@ -1,8 +1,8 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import PokemonListGroup from '../PokemonListGroup'
+import PokemonAccordion from '../PokemonAccordion'
 
-describe('PokemonListGroup', ( ) => {
+describe('PokemonAccordion', ( ) => {
   const pokemons = [
     {
       "url" : "http://pokeapi.co/api/v2/pokemon/1/",
@@ -16,7 +16,7 @@ describe('PokemonListGroup', ( ) => {
 
   it('render correctly', ( ) => {
     const component = renderer.create(
-      <PokemonListGroup
+      <PokemonAccordion
         dataset={pokemons}
       />
     )

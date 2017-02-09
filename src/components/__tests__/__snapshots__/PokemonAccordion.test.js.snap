@@ -1,4 +1,4 @@
-exports[`PokemonListGroup render correctly 1`] = `
+exports[`PokemonAccordion render correctly 1`] = `
 <div
   className="panel-group"
   role="tablist">
