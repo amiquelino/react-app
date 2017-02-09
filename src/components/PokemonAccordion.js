@@ -1,5 +1,5 @@
 import React from 'react'
-import {Accordion, Panel, Grid, Row, Col} from 'react-bootstrap'
+import {Accordion, Panel, Grid, Row, Col, Badge} from 'react-bootstrap'
 const PokemonAccordion = ( props ) => {
   return (
     <Accordion >
@@ -20,10 +20,10 @@ const PokemonAccordion = ( props ) => {
               </Row>
               <Row className="show-grid">
                 <Col xs={3} md={2}>{props.selected.name}</Col>
-                <Col xs={2} md={1}>{props.selected.base_experience}</Col>
-                <Col xs={2} md={1}>{props.selected.height}</Col>
-                <Col xs={2} md={1}>{props.selected.weight}</Col>
-                <Col xs={2} md={1}>{props.selected.order}</Col>
+                <Col xs={2} md={1}><Badge>{props.selected.base_experience}</Badge></Col>
+                <Col xs={2} md={1}><Badge>{props.selected.height}</Badge></Col>
+                <Col xs={2} md={1}><Badge>{props.selected.weight}</Badge></Col>
+                <Col xs={2} md={1}><Badge>{props.selected.order}</Badge></Col>
               </Row>
             </Grid>
          </Panel>

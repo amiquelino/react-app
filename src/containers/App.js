@@ -2,16 +2,14 @@ import React from 'react'
 import logo from '../logo.svg'
 import '../App.css';
 import PokemonList from './PokemonList'
+import { Jumbotron } from 'react-bootstrap'
 
 const App = () => (
-  <div className="App">
-    <div className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h2>Catálogo de Pokémons</h2>
-    </div>
-    <p className="App-intro">
-      Saiba mais sobre os Pokémons clicando em seu nome.
-    </p>
+  <div className="container">
+    <Jumbotron>
+      <h1>Catálogo de Pokémons <img src={logo} className="App-logo" alt="logo" /></h1>
+      <p>Saiba mais sobre os Pokémons clicando em seu nome.</p>
+    </Jumbotron>
     <div>
       <PokemonList/>
     </div>
