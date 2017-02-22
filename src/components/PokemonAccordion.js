@@ -1,11 +1,11 @@
 import React from 'react'
-import {Accordion, Panel, Grid, Row, Col, Badge} from 'react-bootstrap'
+import {Panel, Grid, Row, Col, Badge} from 'react-bootstrap'
 const PokemonAccordion = ( props ) => {
   return (
-    <Accordion >
+    <div>
       {props.dataset.map((pokemon) => {
         return (
-          <Panel
+          <Panel  collapsible expanded={props.selected.name && props.selected.name === pokemon.name}
             header={pokemon.name}
             eventKey={pokemon.url}
             key={pokemon.name}
@@ -29,7 +29,7 @@ const PokemonAccordion = ( props ) => {
          </Panel>
         )
       })}
-    </Accordion>
+    </div>
   )
 }
 

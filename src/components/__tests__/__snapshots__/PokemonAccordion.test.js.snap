@@ -1,7 +1,5 @@
 exports[`PokemonAccordion render correctly 1`] = `
-<div
-  className="panel-group"
-  role="tablist">
+<div>
   <div
     className="panel panel-default"
     id={null}>
@@ -12,22 +10,22 @@ exports[`PokemonAccordion render correctly 1`] = `
         role="presentation">
         <a
           aria-controls={undefined}
-          aria-expanded={false}
-          aria-selected={false}
-          className="collapsed"
+          aria-expanded={true}
+          aria-selected={true}
+          className={null}
           href={undefined}
           onClick={[Function]}
-          role="tab">
+          role={undefined}>
           bulbasaur
         </a>
       </h4>
     </div>
     <div
       aria-expanded={null}
-      aria-hidden={true}
-      className="panel-collapse collapse"
+      aria-hidden={false}
+      className="panel-collapse collapse in"
       id={undefined}
-      role="tabpanel">
+      role={undefined}>
       <div
         className="panel-body">
         <div
@@ -119,7 +117,7 @@ exports[`PokemonAccordion render correctly 1`] = `
           className="collapsed"
           href={undefined}
           onClick={[Function]}
-          role="tab">
+          role={undefined}>
           ivysaur
         </a>
       </h4>
@@ -129,7 +127,7 @@ exports[`PokemonAccordion render correctly 1`] = `
       aria-hidden={true}
       className="panel-collapse collapse"
       id={undefined}
-      role="tabpanel">
+      role={undefined}>
       <div
         className="panel-body">
         <div
