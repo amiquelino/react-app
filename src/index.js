@@ -5,8 +5,10 @@ import { Provider } from 'react-redux'
 import createLogger from 'redux-logger'
 import thunk from 'redux-thunk'
 import reducer from './reducers'
-import App from './containers/App'
 import { getPokemons } from './actions'
+import App from './containers/App'
+import Login from './containers/Login'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
@@ -23,7 +25,12 @@ store.dispatch(getPokemons())
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
-  </Provider>,
+    <BrowserRouter>
+      <Switch>
+        <Route path='/' exact={true} component={App} />
+        <Route path='/login' component={Login} />
+      </Switch>
+    </BrowserRouter> 
+ </Provider>,
   document.getElementById('root')
 );

@@ -1,21 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`PokemonAccordion render correctly 1`] = `
 <div>
   <div
     className="panel panel-default"
-    id={null}>
+    id={null}
+  >
     <div
-      className="panel-heading">
+      className="panel-heading"
+    >
       <h4
         className="panel-title"
-        role="presentation">
+        role="presentation"
+      >
         <a
-          aria-controls={undefined}
           aria-expanded={true}
           aria-selected={true}
           className={null}
-          href={undefined}
           onClick={[Function]}
-          role={undefined}>
+        >
           bulbasaur
         </a>
       </h4>
@@ -24,100 +27,121 @@ exports[`PokemonAccordion render correctly 1`] = `
       aria-expanded={null}
       aria-hidden={false}
       className="panel-collapse collapse in"
-      id={undefined}
-      role={undefined}>
+    >
       <div
-        className="panel-body">
+        className="panel-body"
+      >
         <div
-          className="container">
+          className="container"
+        >
           <div
-            className="show-grid row">
+            className="show-grid row"
+          >
             <div
-              className="col-md-2 col-xs-3">
+              className="col-md-2 col-xs-3"
+            >
               <b>
                 Nome: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 CP: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Altura: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Peso: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Ordem: 
               </b>
             </div>
           </div>
           <div
-            className="show-grid row">
+            className="show-grid row"
+          >
             <div
-              className="col-md-2 col-xs-3">
+              className="col-md-2 col-xs-3"
+            >
               bulbasaur
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 64
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 7
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 69
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 1
               </span>
             </div>
           </div>
         </div>
+        <p>
+          test
+        </p>
       </div>
     </div>
   </div>
   <div
     className="panel panel-default"
-    id={null}>
+    id={null}
+  >
     <div
-      className="panel-heading">
+      className="panel-heading"
+    >
       <h4
         className="panel-title"
-        role="presentation">
+        role="presentation"
+      >
         <a
-          aria-controls={undefined}
           aria-expanded={false}
           aria-selected={false}
           className="collapsed"
-          href={undefined}
           onClick={[Function]}
-          role={undefined}>
+        >
           ivysaur
         </a>
       </h4>
@@ -126,81 +150,101 @@ exports[`PokemonAccordion render correctly 1`] = `
       aria-expanded={null}
       aria-hidden={true}
       className="panel-collapse collapse"
-      id={undefined}
-      role={undefined}>
+    >
       <div
-        className="panel-body">
+        className="panel-body"
+      >
         <div
-          className="container">
+          className="container"
+        >
           <div
-            className="show-grid row">
+            className="show-grid row"
+          >
             <div
-              className="col-md-2 col-xs-3">
+              className="col-md-2 col-xs-3"
+            >
               <b>
                 Nome: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 CP: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Altura: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Peso: 
               </b>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <b>
                 Ordem: 
               </b>
             </div>
           </div>
           <div
-            className="show-grid row">
+            className="show-grid row"
+          >
             <div
-              className="col-md-2 col-xs-3">
+              className="col-md-2 col-xs-3"
+            >
               bulbasaur
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 64
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 7
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 69
               </span>
             </div>
             <div
-              className="col-md-1 col-xs-2">
+              className="col-md-1 col-xs-2"
+            >
               <span
-                className="badge">
+                className="badge"
+              >
                 1
               </span>
             </div>
           </div>
         </div>
+        <p>
+          test
+        </p>
       </div>
     </div>
   </div>

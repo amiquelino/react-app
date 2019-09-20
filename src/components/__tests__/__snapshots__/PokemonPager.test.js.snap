@@ -1,21 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`PokemonPager render correctly 1`] = `
 <ul
-  className="pager">
+  className="pager"
+>
   <button
     className="btn btn-default"
     disabled={true}
-    onClick={[Function]}
+    onClick={[MockFunction]}
     onSelect={null}
-    type="button">
+    type="button"
+  >
     Anterior
   </button>
    
   <button
     className="btn btn-default"
     disabled={false}
-    onClick={[Function]}
+    onClick={[MockFunction]}
     onSelect={null}
-    type="button">
+    type="button"
+  >
     Próxima
   </button>
 </ul>

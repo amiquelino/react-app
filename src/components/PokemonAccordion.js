@@ -1,5 +1,7 @@
 import React from 'react'
 import {Panel, Grid, Row, Col, Badge} from 'react-bootstrap'
+import PropTypes from 'prop-types'
+
 const PokemonAccordion = ( props ) => {
   return (
     <div>
@@ -27,6 +29,7 @@ const PokemonAccordion = ( props ) => {
               </Row>
             </Grid>
          </Panel>
+         
         )
       })}
     </div>
@@ -34,8 +37,8 @@ const PokemonAccordion = ( props ) => {
 }
 
 PokemonAccordion.propTypes = {
-  dataset: React.PropTypes.array.isRequired,
-  onSelect: React.PropTypes.func.isRequired,
+  dataset: PropTypes.array.isRequired,
+  onSelect: PropTypes.func.isRequired,
 }
 
 

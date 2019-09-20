@@ -1,5 +1,6 @@
 import React from 'react'
 import {Button, Pager} from 'react-bootstrap'
+import PropTypes from 'prop-types'
 
 const PokemonPager = (props ) => {
   return (
@@ -12,10 +13,10 @@ const PokemonPager = (props ) => {
 }
 
 PokemonPager.propTypes = {
-  previous: React.PropTypes.string,
-  next: React.PropTypes.string,
-  previousOnClick: React.PropTypes.func.isRequired,
-  nextOnClick: React.PropTypes.func.isRequired,
+  previous: PropTypes.string,
+  next: PropTypes.string,
+  previousOnClick: PropTypes.func.isRequired,
+  nextOnClick: PropTypes.func.isRequired,
 }
 
 export default PokemonPager
